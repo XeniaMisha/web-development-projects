@@ -1,23 +1,27 @@
 .flex-container {
-    display: flex;
+  display: flex;
+  justify-content: space-between;
 }
 
 .flex-item {
-    /*width: 33%;*/
-    flex-basis: 300px;
-    flex-grow: 1;
+  /*width: 200px;
+  flex-basis: 300px;
+  flex-grow: 1;*/
 }
 
-.item-1{
-    background-color: red;
+.item-1 {
+  background-color: red;
+  flex-basis: 200px;
 }
 
-.item-2{
-    background-color: yellow;
-    flex-shrink: 2;
+.item-2 {
+  background-color: yellow;
+  flex-basis: 200px;
+  flex-shrink: 0;
 }
 
 .item-3 {
-    background-color: aqua;
-    flex-shrink: 3;
+  background-color: aqua;
+  flex-basis: 400px;
+  flex-shrink: 0;
 }
